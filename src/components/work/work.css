@@ -1,0 +1,76 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 320px;
+    min-height: 450px; /* Altura fixa para padronizar o tamanho */
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 40px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .card__description {
+    font-size: 11px;
+    color: #757575;
+
+
+
+  }
+  
+  .card__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    max-height: 75px; /* Limita o tamanho para acomodar até 5 tags */
+    overflow: hidden; /* Esconde tags excedentes */
+  }
+  
+  .card__tag {
+    background: #c1d9f1;
+    color: #6fa9ce;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
+  
+  .card__link {
+    color: #6fa9ce;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .card__link:hover {
+    color: #3775e6;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper {
+      padding: 40px; /* Aumenta o padding geral em telas médias */
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .swiper {
+      padding: 50px; /* Aumenta o padding geral em telas muito grandes */
+    }
+  }
+  

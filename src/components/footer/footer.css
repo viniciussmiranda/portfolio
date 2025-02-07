@@ -1,0 +1,44 @@
+.footer {
+    background-color:#6fa9ce;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do footer */
+    padding: 1rem 0; /* Adiciona um padding ao footer */
+}
+
+.footer__container {
+    padding: 2rem 0; /* Remova o padding inferior se não for necessário */
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os elementos */
+    align-items: center; /* Alinha verticalmente os itens */
+    width: 100%;
+    max-width: 1200px; /* Limita a largura do footer */
+}
+
+.footer__title {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0; /* Remove margens para melhor alinhamento */
+    color: #fff;
+}
+
+.footer__copy {
+    color: #efefef; 
+    text-align: right; /* Alinha o texto à direita */
+    font-size: var(--smaller-font-size);
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .footer__container {
+        flex-direction: column; /* Muda a direção para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .footer__title {
+        margin-bottom: 1rem; /* Adiciona margem inferior para espaçamento */
+    }
+
+    .footer__copy {
+        margin-top: 1rem; /* Adiciona margem superior para espaçamento */
+    }
+}

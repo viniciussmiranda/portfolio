@@ -1,0 +1,91 @@
+/* Ajuste no espaçamento dos slides */
+.swiper {
+    padding: 0 60px; /* Adiciona 60px de margem nos lados esquerdo e direito */
+    z-index: 1; /* Defina um z-index menor para o Swiper */
+    position: relative; /* Certifique-se de que o Swiper tenha uma posição relativa */
+}
+
+@media (min-width: 768px) {
+    .swiper {
+        padding: 0 80px; /* Margem maior para telas médias */
+    }
+}
+
+@media (min-width: 1440px) {
+    .swiper {
+        padding: 0 120px; /* Margem ainda maior para telas grandes */
+    }
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para a navegação */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+    background-color: #6fa9ce;
+    width: 50px; /* Aumenta a largura das setas */
+    height: 50px; /* Aumenta a altura das setas */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: absolute; /* Adiciona posição absoluta */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta para centralizar */
+}
+
+.swiper-button-prev {
+    left: calc(50% - 220px); /* Ajuste a distância da borda esquerda */
+}
+
+.swiper-button-next {
+    left: calc(50% + 170px); /* Ajuste a distância da borda direita */
+}
+
+/* Ajustes para telas menores que 720px */
+@media (max-width: 736px) {
+    .swiper-button-prev {
+        left: calc(50% - 195px); /* Aumenta a distância da borda esquerda */
+    }
+
+    .swiper-button-next {
+        left: calc(50% + 155px); /* Aumenta a distância da borda direita */
+    }
+}
+
+/* Ajustes para telas maiores que 1361px */
+@media (min-width: 1361px) {
+    .swiper-button-prev {
+        left: calc(50% - 220px); /* Aumenta a distância da borda esquerda */
+    }
+
+    .swiper-button-next {
+        left: calc(50% + 170px); /* Aumenta a distância da borda direita */
+    }
+}
+
+.swiper-button-prev:hover {
+    background-color: #3775e6;
+    transform: translateY(-50%) translateX(-10px); /* Move 10px para a esquerda */
+}
+
+.swiper-button-next:hover {
+    background-color: #3775e6;
+    transform: translateY(-50%) translateX(10px); /* Move 10px para a direita */
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 1.5rem; /* Aumenta o tamanho do ícone */
+}
+
+/* Ativo da paginação */
+.swiper-pagination-bullet-active {
+    background-color: #a5c5e4;
+}

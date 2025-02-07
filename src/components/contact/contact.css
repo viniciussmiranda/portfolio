@@ -1,0 +1,28 @@
+.contact {
+  padding-bottom: 100px;
+}
+
+.contact__content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+}
+
+.contact__info {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  gap: 2rem; 
+}
+
+.contact__card-icon {
+  font-size: 2.3rem;
+  color: #000000;
+  transition: transform 0.3s ease, color 0.3s ease; /* Transições suaves para escala e cor */
+}
+
+.contact__button:hover .contact__card-icon {
+  transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+  color: #3775e6; /* Muda a cor do ícone ao passar o mouse */
+}
