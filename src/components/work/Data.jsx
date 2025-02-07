@@ -48,7 +48,7 @@ const projetos = [
         description: "Portfólio pessoal",
         technologies: ["React"],
         image: work5, 
-        link: "https://codificador-lovat.vercel.app/", 
+        link: "https://github.com/viniciussmiranda/portfolio", 
       },
 
 
