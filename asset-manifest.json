@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f406ad2d.css",
+    "main.js": "/static/js/main.b6a6b653.js",
+    "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
+    "static/media/about.jpg": "/static/media/about.847f91cf8827caa19e26.jpg",
+    "static/media/work5.jpg": "/static/media/work5.9aa98916740a164fc09f.jpg",
+    "static/media/Vinicius-Cv.pdf": "/static/media/Vinicius-Cv.5d36f5bfa5966fcacc62.pdf",
+    "static/media/profile.jpg": "/static/media/profile.c49d0296c23499b69015.jpg",
+    "static/media/work3.jpg": "/static/media/work3.31a480d59e4822e8ee11.jpg",
+    "static/media/work2.jpg": "/static/media/work2.97baf9617870d852dc05.jpg",
+    "static/media/work1.jpg": "/static/media/work1.df5b4e31723d48d72a67.jpg",
+    "static/media/work4.jpg": "/static/media/work4.c4f7874506e71cbe2d9b.jpg",
+    "index.html": "/index.html",
+    "main.f406ad2d.css.map": "/static/css/main.f406ad2d.css.map",
+    "main.b6a6b653.js.map": "/static/js/main.b6a6b653.js.map",
+    "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f406ad2d.css",
+    "static/js/main.b6a6b653.js"
+  ]
+}
